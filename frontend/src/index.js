@@ -34,13 +34,11 @@ Amplify.configure({
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  
+  <Router>
     <React.StrictMode>
-      <Router>
         <App />
-      </Router>
     </React.StrictMode>
-  
+  </Router>
 );
 
 // If you want to start measuring performance in your app, pass a function
