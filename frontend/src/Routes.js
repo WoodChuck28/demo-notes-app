@@ -8,13 +8,26 @@ import NewNote from "./containers/NewNote";
 import Notes from "./containers/Notes";
 import AuthenticatedRoute from "./components/AuthenticatedRoute";
 import UnauthenticatedRoute from "./components/UnauthenticatedRoute";
+import LandingPage from "./containers/LandingPage";
+import AboutPage from "./containers/About";
+import ShowcasePage from "./containers/ProjectShowcase";
+import CalendarPage from "./containers/Calendar";
 
 export default function Routes() {
   return (
     <Switch>
-      <Route exact path="/">
-        <Home />
-      </Route>
+      <UnauthenticatedRoute exact path="/">
+        <LandingPage />
+      </UnauthenticatedRoute>
+      <UnauthenticatedRoute exact path="/about">
+        <AboutPage />
+      </UnauthenticatedRoute>
+      <UnauthenticatedRoute exact path="/showcase">
+        <ShowcasePage />
+      </UnauthenticatedRoute>
+      <UnauthenticatedRoute exact path="/calendar">
+        <CalendarPage />
+      </UnauthenticatedRoute>
       <UnauthenticatedRoute exact path="/login">
         <Login />
       </UnauthenticatedRoute>

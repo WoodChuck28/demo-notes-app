@@ -1,0 +1,32 @@
+#root {
+    background: black;
+}
+
+.bg-light {
+    background-color: #D72327!important;
+}
+
+.text-muted {
+    color: white!important;
+}
+
+.navbar-toggler {
+    color: white;
+
+}
+
+a {
+    color: white important!;
+}
+
+.navItem {
+    color: white;
+  }
+
+.nav-link {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}

@@ -8,6 +8,9 @@ import { AppContext } from "./lib/contextLib";
 import { Auth } from "aws-amplify";
 import { useHistory } from "react-router-dom";
 import { onError } from "./lib/errorLib";
+import MyFooter from "./components/myFooter";
+import logo from "./Snipped1.png"
+import styles from "./mainstyles.module.css";
 
 
 function App() {
@@ -39,22 +42,28 @@ function App() {
   }
   return (
     !isAuthenticating && (
-      <div className="App container py-3">
+      <div className="App container py-3" style={{color: 'white'}}>
         <Navbar collapseOnSelect bg="light" expand="md" className="mb-3">
           <LinkContainer to="/">
             <Navbar.Brand className="font-weight-bold text-muted">
-              Scratch
+            <img src={logo} alt="My logo" width={280} height={60}/>
             </Navbar.Brand>
           </LinkContainer>
           <Navbar.Toggle />
-          <Navbar.Collapse className="justify-content-end">
+          <Navbar.Collapse className="justify-content-end" style={{alignContent: 'right'}}>
             <Nav activeKey={window.location.pathname}>
               {isAuthenticated ? (
                 <Nav.Link onClick={handleLogout}>Logout</Nav.Link>
               ) : (
                 <>
-                  <LinkContainer to="/signup">
-                    <Nav.Link>Signup</Nav.Link>
+                <LinkContainer to="/calendar">
+                    <Nav.Link >Schedule</Nav.Link>
+                  </LinkContainer>
+                <LinkContainer to="/showcase">
+                    <Nav.Link >Project Showcase</Nav.Link>
+                  </LinkContainer>
+                  <LinkContainer to="/about">
+                    <Nav.Link style={{color: "white"}}>About</Nav.Link>
                   </LinkContainer>
                   <LinkContainer to="/login">
                     <Nav.Link>Login</Nav.Link>
@@ -67,6 +76,7 @@ function App() {
         <AppContext.Provider value={{ isAuthenticated, userHasAuthenticated }}>
           <Routes />
         </AppContext.Provider>
+        <MyFooter></MyFooter>
       </div>
     )
   );
