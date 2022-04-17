@@ -7,6 +7,9 @@ import image4 from './img/Lin2.jpg'
 import image5 from './img/Massey2.jpg'
 import image6 from './img/Johnston2.jpg'
 import image7 from './img/OIP2.jpg'
+import image8 from './img/Gresham2.jpg'
+import image9 from './img/Chalk2.jpg'
+
 
 
 
@@ -145,6 +148,40 @@ export default function AboutPage() {
                 the work, so he shows them how and he sets them free to do things for themselves. His support
                 has been key in getting our CHARGEnorth store off the ground and helping students to learn how
                 to pursue passion projects in the world of engineering.
+              </p>
+              </div>
+              </div>
+              </div>
+              <div className={styles.gridItem}>
+              <h3 className={styles.personHeader}>Ms. Gresham</h3>
+              <div className={styles.picture} style={{ backgroundImage:`url(${image8})`}}></div>
+              <div className={styles.personDescription}>
+                <div className={styles.descriptionContainer}>
+              <h4>Subject: Counselor/Mother of CHARGE</h4>
+              <p>
+                Ms. Gresham is the glue that keeps CHARGEnorth together. She is a pillar of support
+                for every single student and she truly cares about them all individually. The title of 
+                counselor doesn't really do her justice as she does so much more for our program from logistics
+                to planning events and onboarding new students. It is safe to say, without her, there would be 
+                no CHARGEnorth. Just make sure you schedule an appointment because she is a busy woman!
+              </p>
+              </div>
+              </div>
+              </div>
+              <div className={styles.gridItem}>
+              <h3 className={styles.personHeader}>Dr. Chalk</h3>
+              <div className={styles.picture} style={{ backgroundImage:`url(${image9})`}}></div>
+              <div className={styles.personDescription}>
+                <div className={styles.descriptionContainer}>
+              <h4>Subject: CHARGE Administrator</h4>
+              <p>
+                Dr. Chalk is the champion of CHARGEnorth. Don't quote me on this, but I believe
+                this program was her vision originally (I am sure Ms Gresham was involved!). Dr. Chalk
+                is an extremely intelligent individual with a kindness that makes it hard to remember
+                that she is an administrator. She is truly a champion for all of our students and she 
+                is continuously working with the school to ensure that we are all given the flexibility 
+                to do what is best for our program. There is not a single amazing thing that happens in CHARGEnorth
+                without Dr. Chalk's involvement.
               </p>
               </div>
               </div>
