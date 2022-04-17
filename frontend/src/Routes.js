@@ -11,6 +11,7 @@ import LandingPage from "./containers/LandingPage";
 import AboutPage from "./containers/About";
 import ShowcasePage from "./containers/ProjectShowcase";
 import CalendarPage from "./containers/Calendar";
+import Home from "./containers/Home";
 
 export default function Routes() {
   return (
@@ -32,6 +33,9 @@ export default function Routes() {
       </UnauthenticatedRoute>
       <UnauthenticatedRoute exact path="/signup">
         <Signup />
+      </UnauthenticatedRoute>
+      <UnauthenticatedRoute exact path="/home">
+        <Home />
       </UnauthenticatedRoute>
       <AuthenticatedRoute exact path="/notes/new">
         <NewNote />
