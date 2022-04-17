@@ -46,7 +46,7 @@ function App() {
         <Navbar collapseOnSelect bg="light" expand="md" className="mb-3">
           <LinkContainer to="/">
             <Navbar.Brand className="font-weight-bold text-muted">
-            <img src={logo} alt="My logo" width={280} height={60}/>
+            <img src={logo} alt="My logo" width={180} height={40}/>
             </Navbar.Brand>
           </LinkContainer>
           <Navbar.Toggle />
