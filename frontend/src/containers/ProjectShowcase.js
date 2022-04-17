@@ -1,5 +1,4 @@
 import React from 'react'
-import styles from './mystyles.module.css'
 import Gallery from 'react-photo-gallery'
 import image1 from './img/3DPrint.jpg'
 import image2 from './img/IMG_1303.jpg'

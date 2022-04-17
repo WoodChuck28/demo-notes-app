@@ -9,8 +9,7 @@ import { Auth } from "aws-amplify";
 import { useHistory } from "react-router-dom";
 import { onError } from "./lib/errorLib";
 import MyFooter from "./components/myFooter";
-import logo from "./Snipped1.png"
-import styles from "./mainstyles.module.css";
+import logo from "./Snipped1.png";
 
 
 function App() {
