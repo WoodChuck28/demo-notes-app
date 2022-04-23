@@ -55,6 +55,9 @@ function App() {
                 <Nav.Link onClick={handleLogout}>Logout</Nav.Link>
               ) : (
                 <>
+                <LinkContainer to="/PressReleases">
+                    <Nav.Link >Press Releases</Nav.Link>
+                  </LinkContainer>
                 <LinkContainer to="/calendar">
                     <Nav.Link >Schedule</Nav.Link>
                   </LinkContainer>

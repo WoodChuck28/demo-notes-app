@@ -36,7 +36,7 @@ import {
       <Anchor
         a11yTitle="Check us out on facebook"
 
-        href="https://www.facebook.com/"
+        href="https://www.facebook.com/CHARGEnorth"
 
        
         icon={<FacebookOption color="brand" />}

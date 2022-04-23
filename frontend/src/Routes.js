@@ -12,13 +12,17 @@ import AboutPage from "./containers/About";
 import ShowcasePage from "./containers/ProjectShowcase";
 import CalendarPage from "./containers/Calendar";
 import Home from "./containers/Home";
+import PressRelease from "./containers/PressReleases";
 
 export default function Routes() {
   return (
     <Switch>
-      <UnauthenticatedRoute exact path="/">
-        <LandingPage />
-      </UnauthenticatedRoute>
+      <Route exact path="/">
+        <Home />
+      </Route>
+      <Route exact path="/PressReleases">
+        <PressRelease />
+      </Route>
       <UnauthenticatedRoute exact path="/about">
         <AboutPage />
       </UnauthenticatedRoute>
@@ -33,9 +37,6 @@ export default function Routes() {
       </UnauthenticatedRoute>
       <UnauthenticatedRoute exact path="/signup">
         <Signup />
-      </UnauthenticatedRoute>
-      <UnauthenticatedRoute exact path="/home">
-        <Home />
       </UnauthenticatedRoute>
       <AuthenticatedRoute exact path="/notes/new">
         <NewNote />

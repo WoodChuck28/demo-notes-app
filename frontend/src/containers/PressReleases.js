@@ -10,7 +10,7 @@ import image from "./img/OIP.jpg";
 import "./LandingPage.css";
 import styles from "./mystyles.module.css";
 
-export default function Home() {
+export default function PressRelease() {
   const [notes, setNotes] = useState([]);
   const { isAuthenticated } = useAppContext();
   const [isLoading, setIsLoading] = useState(true);
@@ -41,12 +41,6 @@ export default function Home() {
   function renderNotesList(notes) {
     return (
       <>
-        <LinkContainer to="/notes/new">
-          <ListGroup.Item action className="py-3 text-nowrap text-truncate">
-            <BsPencilSquare size={17} />
-            <span className="ml-2 font-weight-bold">Create a new note</span>
-          </ListGroup.Item>
-        </LinkContainer>
         {notes.map(({ noteId, content, createdAt }) => (
           <LinkContainer key={noteId} to={`/notes/${noteId}`}>
             <ListGroup.Item action>
@@ -63,28 +57,20 @@ export default function Home() {
       </>
     );
   }
+  
 
   function renderLander() {
     return (
       <div className="Lander" >
-          <div style={{fontSize: 24, textAlign: 'center'}} id="welcome">
-            Welcome to CHARGEnorth!
+          <div style={{fontSize: 28, textAlign: 'center'}} id="welcome">
+            Welcome to CHARGEnorth Press Releases!
+            <h3>Here is where you will find announcements regarding all of the amazing
+                accomplishments of our students!
+            </h3>
           </div>
           
              
-          
-          <div classname = "center" id="center">
-            <img src={image} alt="this is bulldog image" className={styles.bullDogIMG} />
-          </div>
           <div className={styles.cardmain}> 
-            
-              <h4>What is CHARGEnorth?</h4>
-              <p>CHARGEnorth is a STEM based program operating out of North Gwinnett Highschool.
-                We tackle  learning rigorous course material through project based research and investigation.
-                Students are continuously challenged to learn required course material with a focus on 
-                humanities and engineering.
-              </p>
-            
           </div>
         </div>
     );
@@ -99,8 +85,10 @@ export default function Home() {
     );
   }
 
+
+
   return (
-    <div className="Home">
+    <div className="Press Release">
       {isAuthenticated ? renderNotes() : renderLander()}
     </div>
   );
