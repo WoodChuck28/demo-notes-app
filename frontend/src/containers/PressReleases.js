@@ -4,9 +4,7 @@ import { useAppContext } from "../lib/contextLib";
 import { onError } from "../lib/errorLib";
 import "./Home.css";
 import { API } from "aws-amplify";
-import { BsPencilSquare } from "react-icons/bs";
 import { LinkContainer } from "react-router-bootstrap";
-import image from "./img/OIP.jpg"; 
 import "./LandingPage.css";
 import styles from "./mystyles.module.css";
 
