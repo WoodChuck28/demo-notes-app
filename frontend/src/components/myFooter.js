@@ -30,7 +30,7 @@ import {
     <Box direction="row" gap="xxsmall" justify="center">
       <Anchor
         a11yTitle="Look at our insta"
-        href="https://www.instagram.com/"
+        href="https://www.instagram.com/chargenorth"
         icon={<Instagram color="brand" />}
       />
       <Anchor
