@@ -1,0 +1,19 @@
+.tableHeader {
+    padding: 5px;
+    border-color: aliceblue;
+    border-style: dashed;
+    text-align: center;
+    width: 100%;
+}
+
+.tableCells {
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.bigContainer {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}

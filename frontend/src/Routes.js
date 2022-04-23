@@ -12,6 +12,8 @@ import ShowcasePage from "./containers/ProjectShowcase";
 import CalendarPage from "./containers/Calendar";
 import Home from "./containers/Home";
 import PressRelease from "./containers/PressReleases";
+import Curriculum from "./containers/Curriculum";
+
 
 export default function Routes() {
   return (
@@ -21,6 +23,9 @@ export default function Routes() {
       </Route>
       <Route exact path="/PressReleases">
         <PressRelease />
+      </Route>
+      <Route exact path="/Curriculum">
+        <Curriculum />
       </Route>
       <UnauthenticatedRoute exact path="/about">
         <AboutPage />
