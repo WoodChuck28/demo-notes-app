@@ -74,7 +74,7 @@ export default function Home() {
              
           
           <div classname = "center" id="center">
-            <img src={image} alt="this is bulldog image" className={styles.bullDogIMG} />
+            <img src={image} alt="this is bulldog" className={styles.bullDogIMG} />
           </div>
           <div className={styles.cardmain}> 
             

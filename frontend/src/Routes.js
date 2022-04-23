@@ -7,7 +7,6 @@ import NewNote from "./containers/NewNote";
 import Notes from "./containers/Notes";
 import AuthenticatedRoute from "./components/AuthenticatedRoute";
 import UnauthenticatedRoute from "./components/UnauthenticatedRoute";
-import LandingPage from "./containers/LandingPage";
 import AboutPage from "./containers/About";
 import ShowcasePage from "./containers/ProjectShowcase";
 import CalendarPage from "./containers/Calendar";
