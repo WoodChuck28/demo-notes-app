@@ -58,9 +58,9 @@ function App() {
                 <LinkContainer to="/PressReleases">
                     <Nav.Link >Press Releases</Nav.Link>
                   </LinkContainer>
-                  <LinkContainer to="/Curriculum">
-                    <Nav.Link >Curriculum</Nav.Link>
-                  </LinkContainer>
+                  <LinkContainer to="/curriculum">
+                   <Nav.Link>Curriculum</Nav.Link>
+                </LinkContainer>
                 <LinkContainer to="/calendar">
                     <Nav.Link >Schedule</Nav.Link>
                   </LinkContainer>

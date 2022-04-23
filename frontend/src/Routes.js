@@ -21,12 +21,12 @@ export default function Routes() {
       <Route exact path="/">
         <Home />
       </Route>
-      <Route exact path="/PressReleases">
+      <UnauthenticatedRoute exact path="/PressReleases">
         <PressRelease />
-      </Route>
-      <Route exact path="/Curriculum">
+      </UnauthenticatedRoute>
+      <UnauthenticatedRoute exact path="/Curriculum">
         <Curriculum />
-      </Route>
+      </UnauthenticatedRoute>
       <UnauthenticatedRoute exact path="/about">
         <AboutPage />
       </UnauthenticatedRoute>
