@@ -6,11 +6,12 @@ import {
     MDBCarouselElement,
     MDBCarouselCaption,
   } from 'mdb-react-ui-kit';
+  import styles from './mystyles.module.css'
 
 export default function APHuman() {
     return(
         <div>
-            <MDBCarousel showIndicators showControls fade>
+            <MDBCarousel showIndicators showControls fade className={styles.Carousel}>
             <MDBCarouselInner>
                 <MDBCarouselItem className='active'>
                 <MDBCarouselElement src='https://mdbootstrap.com/img/Photos/Slides/img%20(15).webp' alt='...' />

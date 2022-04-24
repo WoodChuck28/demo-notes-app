@@ -115,4 +115,7 @@
     text-align: left;
 }
 
+.Carousel {
+    transition-duration: 1s, 2s;
+}
 
