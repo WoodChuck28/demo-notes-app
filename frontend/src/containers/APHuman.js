@@ -10,7 +10,7 @@ import {
 
 export default function APHuman() {
     return(
-        <div>
+        
             <MDBCarousel showIndicators showControls fade className={styles.Carousel}>
             <MDBCarouselInner>
                 <MDBCarouselItem className='active'>
@@ -39,7 +39,7 @@ export default function APHuman() {
             </MDBCarouselInner>
             </MDBCarousel>
 
-        </div>
+        
 
     );
 }
