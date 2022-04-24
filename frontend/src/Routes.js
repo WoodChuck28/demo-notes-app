@@ -13,6 +13,7 @@ import CalendarPage from "./containers/Calendar";
 import Home from "./containers/Home";
 import PressRelease from "./containers/PressReleases";
 import Curriculum from "./containers/Curriculum";
+import APHuman from "./containers/APHuman";
 
 
 export default function Routes() {
@@ -35,6 +36,9 @@ export default function Routes() {
       </UnauthenticatedRoute>
       <UnauthenticatedRoute exact path="/calendar">
         <CalendarPage />
+      </UnauthenticatedRoute>
+      <UnauthenticatedRoute exact path="/ApHuman">
+        <APHuman />
       </UnauthenticatedRoute>
       <UnauthenticatedRoute exact path="/login">
         <Login />

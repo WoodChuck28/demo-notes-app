@@ -11,6 +11,7 @@
     "aws-amplify": "^4.3.19",
     "grommet": "^2.22.0",
     "grommet-icons": "^4.6.0",
+    "mdb-react-ui-kit": "^3.0.0",
     "react": "^18.0.0",
     "react-bootstrap": "^1.6.1",
     "react-dom": "^18.0.0",

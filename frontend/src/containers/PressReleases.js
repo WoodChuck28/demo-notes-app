@@ -7,6 +7,8 @@ import { API } from "aws-amplify";
 import { LinkContainer } from "react-router-bootstrap";
 import "./LandingPage.css";
 import styles from "./mystyles.module.css";
+import lightBulb from "./img/LBElectric.jpg"
+import { MDBRipple } from 'mdb-react-ui-kit';
 
 export default function PressRelease() {
   const [notes, setNotes] = useState([]);
@@ -62,13 +64,71 @@ export default function PressRelease() {
       <div className="Lander" >
           <div style={{fontSize: 28, textAlign: 'center'}} id="welcome">
             Welcome to CHARGEnorth Press Releases!
-            <h3>Here is where you will find announcements regarding all of the amazing
+            <div>
+              <h3>Here is where you will find announcements regarding all of the amazing
                 accomplishments of our students!
-            </h3>
-          </div>
-          
-             
-          <div className={styles.cardmain}> 
+              </h3>
+            </div>
+            <main class="mt-4 mb-5" >
+            <div class="container" >
+              <div class="row" >
+                <div class="col-md-8 mb-4" className={styles.bigBlogContainer}>
+                  <section class="border-bottom mb-4">
+                    <img src={lightBulb}
+                      class="img-fluid shadow-2-strong rounded-5 mb-4" alt="lightbulb" />
+
+                    <div class="row align-items-center mb-4">
+                      <div class="col-lg-6 text-center text-lg-start mb-3 m-lg-0">
+                        <img src="https://mdbootstrap.com/img/Photos/Avatars/img(23).jpg" class="rounded-5 shadow-1-strong me-2"
+                          height="35" alt="" loading="lazy" />
+                        <span className={styles.blogHeadingText}> Published <u>04.24.2022</u> by</span>
+                        <a className={styles.blogHeadingText} href="/" class="text-light"> Mr Daab</a>
+                      </div>
+
+                      <div class="col-lg-6 text-center text-lg-end">
+                        <button type="button" class="btn btn-primary px-3 me-1" style={{backgroundcolor: "#3b5998"}}>
+                          <i class="fab fa-facebook-f"></i>
+                        </button>
+                        <button type="button" class="btn btn-primary px-3 me-1" style={{backgroundcolor: "#55acee"}}>
+                          <i class="fab fa-twitter"></i>
+                        </button>
+                        <button type="button" class="btn btn-primary px-3 me-1" style={{backgroundcolor: "#0082ca"}}>
+                          <i class="fab fa-linkedin"></i>
+                        </button>
+                        
+                      </div>
+                    </div>
+                  </section>
+                  <section>
+                    <p className={styles.blogText}>
+                      This is the first post to the CHARGEnorth press release page! We are excited about
+                      our new website and we hope to share lots of awesome accomplishments on this page. Our
+                      students are constantly achieving new heights both in and outside of school. Our goal
+                      is to share all of their amazing accomplishments here on our press release page. If you 
+                      have a piece of news to share, please email one of the CHARGE teachers so we can post it 
+                      here and brag on our amazing students!
+                    </p>
+
+                  </section>
+                  <section class="text-center border-top border-bottom py-4 mb-4">
+                      <p><strong style={{color: "white"}}>Share with your friends (coming soon):</strong></p>
+
+                      <button type="button" class="btn btn-primary me-1" style={{backgroundcolor: "#3b5998"}}>
+                        <i class="fab fa-facebook-f"></i>
+                      </button>
+                      <button type="button" class="btn btn-primary me-1" style={{backgroundcolor: "#55acee"}}>
+                        <i class="fab fa-twitter"></i>
+                      </button>
+                      <button type="button" class="btn btn-primary me-1" style={{backgroundcolor: "#0082ca"}}>
+                        <i class="fab fa-linkedin"></i>
+                      </button>
+                      
+                  </section>
+                  </div>
+                  </div>
+                  </div>
+                  </main>
+           
           </div>
         </div>
     );

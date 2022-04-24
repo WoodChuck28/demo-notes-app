@@ -96,3 +96,23 @@
     max-width: 300px;
 }
 
+.blogHeadingText {
+    font-family: var(--mdb-font-roboto);
+    --mdb-font-roboto: "Roboto",sans-serif;
+    font-size: 16px;
+}
+
+.bigBlogContainer {
+    text-align: center;
+}
+
+.blogText {
+    font-family: var(--mdb-font-roboto);
+    --mdb-font-roboto: "Roboto",sans-serif;
+    font-size: 16px;
+    color: white;
+    display: block;
+    text-align: left;
+}
+
+
