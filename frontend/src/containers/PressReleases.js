@@ -8,7 +8,7 @@ import { LinkContainer } from "react-router-bootstrap";
 import "./LandingPage.css";
 import styles from "./mystyles.module.css";
 import lightBulb from "./img/LBElectric.jpg"
-import { MDBRipple } from 'mdb-react-ui-kit';
+
 
 export default function PressRelease() {
   const [notes, setNotes] = useState([]);
