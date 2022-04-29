@@ -19,5 +19,54 @@
 }
 
 .colHeader {
+    color: black;
+}
+
+.bigBody {
+    margin-top: 30px;
+    background-color: black;
+    color: black;
+}
+
+.contentCard {
+    background-color: #D72327;
+    border-radius: 30px;
+    margin: 10px;
+    padding-top: 10px;
+}
+
+.mainBody {
+    background-color: white;
+    color: black;
+}
+
+.headerMain {
+    border-radius: 30px;
+}
+
+.mainCard {
+    background-color: black;
     color: white;
+    
+}
+
+.cardHouse {
+    background-color: black;
+    border-color: white;
+    border-style: solid;
+    border-radius: 30px;
+    margin: 15px;
+   
+}
+
+.tableContent {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.tableContent:hover {
+    color: #ff7a59;
+    border: #ff7a59 solid 1px;
+    background:#fff;
+    
 }

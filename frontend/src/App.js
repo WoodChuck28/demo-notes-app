@@ -70,9 +70,6 @@ function App() {
                   <LinkContainer to="/about">
                     <Nav.Link style={{color: "white"}}>About</Nav.Link>
                   </LinkContainer>
-                  <LinkContainer to="/login">
-                    <Nav.Link>Login</Nav.Link>
-                  </LinkContainer>
                 </>
               )}
             </Nav>
