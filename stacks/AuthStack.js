@@ -33,6 +33,7 @@ export default class AuthStack extends sst.Stack {
       }),
     ]);
 
+
     // Show the auth resources in the output
     this.addOutputs({
       Region: scope.region,

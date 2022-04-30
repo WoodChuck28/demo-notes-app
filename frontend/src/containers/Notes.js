@@ -138,6 +138,8 @@ export default function Notes() {
                   href={note.attachmentURL}
                 >
                   {formatFilename(note.attachment)}
+                  <img src={note.attachmentURL} />
+                 
                 </a>
               </p>
             )}

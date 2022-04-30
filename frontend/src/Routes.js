@@ -37,6 +37,9 @@ export default function Routes() {
       <UnauthenticatedRoute exact path="/calendar">
         <CalendarPage />
       </UnauthenticatedRoute>
+      <UnauthenticatedRoute exact path="/notes">
+        <Notes />
+      </UnauthenticatedRoute>
       <UnauthenticatedRoute exact path="/ApHuman">
         <APHuman />
       </UnauthenticatedRoute>
@@ -46,12 +49,12 @@ export default function Routes() {
       <UnauthenticatedRoute exact path="/signup">
         <Signup />
       </UnauthenticatedRoute>
-      <AuthenticatedRoute exact path="/notes/new">
+      <Route exact path="/notes/new">
         <NewNote />
-      </AuthenticatedRoute>
-      <AuthenticatedRoute exact path="/notes/:id">
+      </Route>
+      <Route exact path="/notes/:id">
         <Notes />
-      </AuthenticatedRoute>
+      </Route>
       <Route>
         <NotFound />
       </Route>
