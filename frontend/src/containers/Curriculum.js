@@ -18,10 +18,10 @@ export default function Curriculum()  {
               <section className={styles.cardHouse}>
                 <section className={styles.contentCard}>
                   <h2>Freshman CHARGE Courseload</h2>
-            <table class="table align-middle">
+            <table class="table align-middle" >
               <thead>
                 <tr >
-                  <th className={styles.colHeader} scope="col">Grade</th>
+                  
                   <th className={styles.colHeader} scope="col">Class</th>
                   <th className={styles.colHeader} scope="col">Teacher</th>
                   <th className={styles.colHeader} scope="col">About</th>
@@ -29,7 +29,7 @@ export default function Curriculum()  {
               </thead>
               <tbody>
                 <tr  className={styles.colHeader}>
-                  <th scope="row">9</th>
+                  
                   <td className={styles.tableContent}>AP Human Geography</td>
                   <td className={styles.tableContent}>Ms. Massey</td>
                   <td className={styles.tableContent}>
@@ -41,7 +41,7 @@ export default function Curriculum()  {
                   </td>
                 </tr>
                 <tr  className={styles.colHeader}>
-                  <th scope="row">9</th>
+                  
                   <td className={styles.tableContent}>9th Grade Language Arts</td>
                   <td className={styles.tableContent}>Ms. Johnston</td>
                   <td className={styles.tableContent}>
@@ -51,7 +51,7 @@ export default function Curriculum()  {
                   </td>
                 </tr>
                 <tr  className={styles.colHeader}>
-                  <th scope="row">9</th>
+                  
                   <td className={styles.tableContent}>Foundations of Engineering</td>
                   <td className={styles.tableContent}>Mr Daab</td>
                   <td className={styles.tableContent}>
@@ -61,7 +61,7 @@ export default function Curriculum()  {
                   </td>
                 </tr>
                 <tr  className={styles.colHeader}>
-                  <th scope="row">9</th>
+                  
                   <td className={styles.tableContent}>Chemistry</td>
                   <td className={styles.tableContent}>Mr Lin</td>
                   <td className={styles.tableContent}>
@@ -80,7 +80,7 @@ export default function Curriculum()  {
             <table class="table align-middle">
               <thead>
                 <tr >
-                  <th className={styles.colHeader} scope="col">Grade</th>
+                  
                   <th className={styles.colHeader} scope="col">Class</th>
                   <th className={styles.colHeader} scope="col">Teacher</th>
                   <th className={styles.colHeader} scope="col">About</th>
@@ -88,7 +88,7 @@ export default function Curriculum()  {
               </thead>
               <tbody>
                 <tr  className={styles.colHeader}>
-                  <th scope="row">10</th>
+                  
                   <td className={styles.tableContent}>AP World History</td>
                   <td className={styles.tableContent}>Ms. Carlisle</td>
                   <td className={styles.tableContent}>
@@ -99,7 +99,7 @@ export default function Curriculum()  {
                 </tr>
                 
                 <tr  className={styles.colHeader}>
-                  <th scope="row">10</th>
+                  
                   <td className={styles.tableContent}>Concepts of Engineering</td>
                   <td className={styles.tableContent}>Mr Bradley</td>
                   <td className={styles.tableContent}>
@@ -109,7 +109,7 @@ export default function Curriculum()  {
                   </td>
                 </tr>
                 <tr  className={styles.colHeader}>
-                  <th scope="row">10</th>
+                  
                   <td className={styles.tableContent}>AP Environmental Science</td>
                   <td className={styles.tableContent}>Ms Stanfield</td>
                   <td className={styles.tableContent}>
@@ -119,7 +119,7 @@ export default function Curriculum()  {
                   </td>
                 </tr>
                 <tr  className={styles.colHeader}>
-                  <th scope="row">10</th>
+                  
                   <td className={styles.tableContent}>AP Research</td>
                   <td className={styles.tableContent}>Ms Davis</td>
                   <td className={styles.tableContent}>
@@ -138,7 +138,7 @@ export default function Curriculum()  {
             <table class="table align-middle">
               <thead>
                 <tr >
-                  <th className={styles.colHeader} scope="col">Grade</th>
+                  
                   <th className={styles.colHeader} scope="col">Class</th>
                   <th className={styles.colHeader} scope="col">Teacher</th>
                   <th className={styles.colHeader} scope="col">About</th>
@@ -146,7 +146,7 @@ export default function Curriculum()  {
               </thead>
               <tbody>
                 <tr  className={styles.colHeader}>
-                  <th scope="row">11</th>
+                  
                   <td className={styles.tableContent}>AP US History</td>
                   <td className={styles.tableContent}>Ms. Massey</td>
                   <td className={styles.tableContent}>
@@ -156,7 +156,7 @@ export default function Curriculum()  {
                   </td>
                 </tr>
                 <tr  className={styles.colHeader}>
-                  <th scope="row">11</th>
+                  
                   <td className={styles.tableContent}>AP Lang</td>
                   <td className={styles.tableContent}>Ms Johnston</td>
                   <td className={styles.tableContent}>
@@ -166,7 +166,7 @@ export default function Curriculum()  {
                   </td>
                 </tr>
                 <tr  className={styles.colHeader}>
-                  <th scope="row">11</th>
+                  
                   <td className={styles.tableContent}>Applications of Engineering</td>
                   <td className={styles.tableContent}>Mr Daab</td>
                   <td className={styles.tableContent}>
@@ -176,7 +176,7 @@ export default function Curriculum()  {
                   </td>
                 </tr>
                 <tr  className={styles.colHeader}>
-                  <th scope="row">11</th>
+                  
                   <td className={styles.tableContent}>AP Physics 1</td>
                   <td className={styles.tableContent}>Mr Lin</td>
                   <td className={styles.tableContent}>
@@ -186,7 +186,7 @@ export default function Curriculum()  {
                   </td>
                 </tr>
                 <tr  className={styles.colHeader}>
-                  <th scope="row">10</th>
+                  
                   <td className={styles.tableContent}>Science Fair</td>
                   <td className={styles.tableContent}>Mr Daab</td>
                   <td className={styles.tableContent}>
