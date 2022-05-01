@@ -51,6 +51,8 @@ export default function ShowcasePage() {
     return(
         <div>
             <Gallery photos={photos}></Gallery>
+            <hr></hr>
+            
         </div>
     );
 

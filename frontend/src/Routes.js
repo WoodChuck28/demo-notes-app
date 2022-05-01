@@ -13,6 +13,10 @@ import Home from "./containers/Home";
 import PressRelease from "./containers/PressReleases";
 import Curriculum from "./containers/Curriculum";
 import APHuman from "./containers/APHuman";
+import Massey from "./containers/Massey";
+import NinthLA from "./containers/NinthLA";
+import FoundENG from "./containers/FoundENG";
+import Chemistry from "./containers/Chemistry";
 
 
 export default function Routes() {
@@ -30,6 +34,9 @@ export default function Routes() {
       <UnauthenticatedRoute exact path="/about">
         <AboutPage />
       </UnauthenticatedRoute>
+      <UnauthenticatedRoute exact path="/Massey">
+        <Massey />
+      </UnauthenticatedRoute>
       <UnauthenticatedRoute exact path="/showcase">
         <ShowcasePage />
       </UnauthenticatedRoute>
@@ -41,6 +48,15 @@ export default function Routes() {
       </UnauthenticatedRoute>
       <UnauthenticatedRoute exact path="/ApHuman">
         <APHuman />
+      </UnauthenticatedRoute>
+      <UnauthenticatedRoute exact path="/NinthLA">
+        <NinthLA />
+      </UnauthenticatedRoute>
+      <UnauthenticatedRoute exact path="/FoundENG">
+        <FoundENG />
+      </UnauthenticatedRoute>
+      <UnauthenticatedRoute exact path="/Chemistry">
+        <Chemistry />
       </UnauthenticatedRoute>
       <UnauthenticatedRoute exact path="/login">
         <Login />

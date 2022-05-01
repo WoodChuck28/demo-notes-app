@@ -8,6 +8,7 @@ import { LinkContainer } from "react-router-bootstrap";
 import "./LandingPage.css";
 import styles from "./mystyles.module.css";
 import lightBulb from "./img/LBElectric.jpg"
+import daab from "./img/Daab.jpg"
 
 
 export default function PressRelease() {
@@ -79,7 +80,7 @@ export default function PressRelease() {
 
                     <div class="row align-items-center mb-4">
                       <div class="col-lg-6 text-center text-lg-start mb-3 m-lg-0">
-                        <img src="https://mdbootstrap.com/img/Photos/Avatars/img(23).jpg" class="rounded-5 shadow-1-strong me-2"
+                        <img src={daab} class="rounded-5 shadow-1-strong me-2"
                           height="35" alt="" loading="lazy" />
                         <span className={styles.blogHeadingText}> Published <u>04.24.2022</u> by</span>
                         <a className={styles.blogHeadingText} href="/" class="text-light"> Mr Daab</a>

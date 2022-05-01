@@ -31,7 +31,7 @@ export default function Curriculum()  {
                 <tr  className={styles.colHeader}>
                   
                   <td className={styles.tableContent}>AP Human Geography</td>
-                  <td className={styles.tableContent}>Ms. Massey</td>
+                  <td className={styles.tableContent}><a style={{color: "black"}}href="/Massey">Ms. Massey</a></td>
                   <td className={styles.tableContent}>
                      <a href='/APHuman'><button type="button" class="btn btn-link btn-sm px-3" data-ripple-color="dark">
                       <i class="fas fa-lightbulb"></i>
@@ -45,9 +45,9 @@ export default function Curriculum()  {
                   <td className={styles.tableContent}>9th Grade Language Arts</td>
                   <td className={styles.tableContent}>Ms. Johnston</td>
                   <td className={styles.tableContent}>
-                    <button type="button" class="btn btn-link btn-sm px-3" data-ripple-color="dark">
+                  <a href='/NinthLA'><button type="button" class="btn btn-link btn-sm px-3" data-ripple-color="dark">
                       <i class="fas fa-lightbulb"></i>
-                    </button>
+                    </button> </a>
                   </td>
                 </tr>
                 <tr  className={styles.colHeader}>
@@ -55,9 +55,9 @@ export default function Curriculum()  {
                   <td className={styles.tableContent}>Foundations of Engineering</td>
                   <td className={styles.tableContent}>Mr Daab</td>
                   <td className={styles.tableContent}>
-                    <button type="button" class="btn btn-link btn-sm px-3" data-ripple-color="dark">
+                  <a href='/FoundENG'><button type="button" class="btn btn-link btn-sm px-3" data-ripple-color="dark">
                       <i class="fas fa-lightbulb"></i>
-                    </button>
+                    </button></a>
                   </td>
                 </tr>
                 <tr  className={styles.colHeader}>
@@ -65,9 +65,9 @@ export default function Curriculum()  {
                   <td className={styles.tableContent}>Chemistry</td>
                   <td className={styles.tableContent}>Mr Lin</td>
                   <td className={styles.tableContent}>
-                    <button type="button" class="btn btn-link btn-sm px-3" data-ripple-color="dark">
+                  <a href='/Chemistry'><button type="button" class="btn btn-link btn-sm px-3" data-ripple-color="dark">
                       <i class="fas fa-lightbulb"></i>
-                    </button>
+                    </button></a>
                   </td>
                 </tr>
               </tbody>
@@ -148,7 +148,7 @@ export default function Curriculum()  {
                 <tr  className={styles.colHeader}>
                   
                   <td className={styles.tableContent}>AP US History</td>
-                  <td className={styles.tableContent}>Ms. Massey</td>
+                  <td className={styles.tableContent}><a style={{color: "black"}}href="/Massey">Ms. Massey</a></td>
                   <td className={styles.tableContent}>
                     <button type="button" class="btn btn-link btn-sm px-3" data-ripple-color="dark">
                       <i class="fas fa-lightbulb"></i>
